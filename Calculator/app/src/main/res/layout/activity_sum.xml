@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sum">
+
+    <TextView
+        android:id="@+id/sumNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginBottom="414dp"
+        android:text=""
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/sumIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginBottom="416dp"
+        android:text="+"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/sumResult"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginBottom="268dp"
+        android:text=""
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/sumLabel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="268dp"
+        android:text="SUM      = "
+        android:textColor="@color/purple_700"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/sumNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="414dp"
+        android:text=""
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/backButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="68dp"
+        android:text="Back" />
+
+</RelativeLayout>
